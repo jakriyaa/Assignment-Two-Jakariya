@@ -48,4 +48,23 @@
       font-size: .8rem;
     }
     /* Banner Section End */
-}
+
+    /* Habit Section */
+    .cards{
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+    }
+    /* Run Extra Mile */
+    .run-extra{
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+    }
+    .run-text{
+      padding: 30px;
+    }
+    .run-img img{
+      width: 330px;
+      height: 200px;
+    }
