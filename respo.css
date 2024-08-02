@@ -1,0 +1,41 @@
+@media screen and (max-width : 576px){
+  .navbar{
+    margin-top: 20px;
+  }
+  .menus{
+    display: none;
+  }
+  .menu-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    color: white;
+  }
+  .banner-section{
+    display: flex;
+    flex-direction: column;
+  }
+  .banner-content h1{
+    font-size: 4rem;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    line-height: 120%;
+  }
+  .banner-content p{
+    width: 520px;
+    width: 90%;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 28px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .position-texts{
+    position: absolute;
+    top: 40%;
+    left: 10px;
+  }
+  .free-workout-video{
+    top: 10%;
+  }
+}

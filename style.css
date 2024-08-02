@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+  font-family: "Inter", sans-serif;
+}
+/* Default Styles */
+*{
+  margin: 0;
+  padding: 0;
+}
+.body-colour{
+  background-color: rgb(0, 0, 0);
+}
+/* Default Styles End */
+
+
+/* Navbar Styles  Start*/
+.navbar{
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 90%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.logo{
+  font-size: 1.5rem;
+  color: rgb(230, 83, 60);
+  font-style: italic;
+}
+.menus{
+  display: flex;
+  justify-content: space-between;
+  width: 465px;
+  height: 46px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 39px;
+  justify-content: space-between;
+}
+#btn-home{
+  color: rgb(255, 255, 255);
+  padding: 8px 20px 8px 20px;
+  border-radius: 46px;
+  background: rgb(230, 83, 60);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  line-height: 120%;
+}
+.menus button{
+  color: rgb(255, 255, 255);
+  border: none;
+  background: none;
+  justify-content: space-between;
+  font-size: 18px;
+  line-height: 120%;
+}
+.menu-icon{
+  display: none;
+}
+/* Navbar Styles End */
+
+/* Banner Section Strart */
+.banner-section{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.banner-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: self-start;
+}
+.banner-content h1{
+  font-size: 4.8rem;
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  line-height: 120%;
+}
+#spechial-text{
+  font-weight: 400;
+}
+.banner-content p{
+  width: 520px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 28px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.banner-btn{
+  display: flex;
+  gap: 14px;
+  margin-top: 28px;
+}
+.banner-btn button{
+  border: none;
+  border-radius: 42px;
+  padding: 16px 40px 16px 40px;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 18px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(230, 83, 60);
+}
+#banner-btn-download{
+  background: none;
+   border: 1px solid ;
+}
+.banner-img{
+  /* border: 2px solid red; */
+  position: relative;
+}
+.position-texts{
+  position: absolute;
+  top: 80%;
+  left: -30px;
+}
+.video-tutorial{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  width: max-content;
+  padding: 15px 20px;
+  background-color: rgba(107, 107, 107, 0.315);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+}
+.video-tutorial i{
+color: rgb(230, 83, 60);
+}
+.tutorial-texts{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.tutorial-texts h5{
+  font-size: 1.5rem;
+  color: rgb(250, 250, 249);
+}
+.tutorial-texts p{
+  color: rgba(239, 237, 232, 0.65);
+font-size: 1rem;
+font-weight: 400;
+margin-top: 8px;
+}
+.free-workout-video{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 30%;
+ left: 60%;
+  width: max-content;
+  padding: 15px 20px;
+  background-color: rgba(107, 107, 107, 0.315);
+  backdrop-filter: blur(20px);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.free-workout-video h5{
+  font-size: 2.5rem;
+  color: rgb(250, 250, 249);
+}
+.free-workout-video p{
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgb(250, 250, 249);
+}
