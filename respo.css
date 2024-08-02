@@ -1,4 +1,5 @@
 @media screen and (max-width : 576px){
+  /* Navbar */
   .navbar{
     margin-top: 20px;
   }
@@ -12,12 +13,13 @@
     display: block;
     color: white;
   }
+  /* Banner Section */
   .banner-section{
     display: flex;
     flex-direction: column;
   }
   .banner-content h1{
-    font-size: 4rem;
+    font-size: 2.5rem;
     color: rgb(255, 255, 255);
     font-weight: 900;
     line-height: 120%;
@@ -30,12 +32,7 @@
     margin-top: 28px;
     color: rgba(255, 255, 255, 0.5);
   }
-  .position-texts{
-    position: absolute;
-    top: 40%;
-    left: 10px;
-  }
-  .free-workout-video{
-    top: 10%;
-  }
+  .banner-btn button{
+    padding: 10px 20px 10px 20px;
+    font-size: 0.8rem;}
 }
