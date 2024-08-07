@@ -62,7 +62,11 @@
       padding: 10px;
     }
     .run-text{
+      font-size: 2.5rem;
       padding: 30px;
+    }
+    .run-text h2{
+      font-size: 2.5rem;
     }
     .run-img img{
       width: 330px;
