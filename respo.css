@@ -24,7 +24,7 @@
     font-weight: 400;
   } .banner-btn button{
     padding: 12px 23px 12px 23px;
-    font-size: 1rem;}
+    font-size: 0.8rem;}
     
     .position-texts{
       position: absolute;
@@ -58,7 +58,7 @@
     }.run-text h2{
       font-size: 2.5rem;
     } .run-img img{
-      width: 330px;
+      width: 250px;
       height: 200px;
     }
     /* Run Extra Mile End */
