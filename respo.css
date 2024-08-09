@@ -2,11 +2,9 @@
   /* Navbar Start */
   .navbar{
     margin-top: 20px;
-  }
-  .menus{
+  }.menus{
     display: none;
-  }
-  .menu-icon{
+  }.menu-icon{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,32 +17,27 @@
   .banner-section{
     display: flex;
     flex-direction: column;
-  }
-  .banner-content h1{
+  }.banner-content h1{
     font-size: 2.8rem;
-  }
-  .banner-content p{
+  }.banner-content p{
     width: 90%;
     font-weight: 400;
-  }
-  .banner-btn button{
+  } .banner-btn button{
     padding: 12px 23px 12px 23px;
     font-size: 1rem;}
+    
     .position-texts{
       position: absolute;
       top: 70%;
       left: 10px;
-    }
-    .free-workout-video{
+    }.free-workout-video{
       padding: 10px 12px;
       top: 15%;
       left: 60%;
       background-color: rgb(184 176 176 / 32%);
-    }
-    .free-workout-video h5{
+    }.free-workout-video h5{
       font-size: 1.3rem;
-    }
-    .free-workout-video p{
+    }.free-workout-video p{
       font-size: .8rem;
     }
     /* Banner Section End */
@@ -60,15 +53,38 @@
       display: flex;
       flex-direction: column;
       padding: 10px;
-    }
-    .run-text{
+    }.run-text{
       font-size: 2.5rem;
-      padding: 30px;
-    }
-    .run-text h2{
+    }.run-text h2{
       font-size: 2.5rem;
-    }
-    .run-img img{
+    } .run-img img{
       width: 330px;
       height: 200px;
     }
+    /* Run Extra Mile End */
+
+    /* Bmi Calculator Section Start */
+    .bmi-calculator{
+      display: flex;
+      flex-direction: column;
+    }table{
+      margin: 0px;
+    }
+    .bmi-calculator-table{
+      width: 100%;
+    }
+    .bmi-calculator-form{
+      width: 100%;
+      margin-top: 20px;
+      padding: 0px;
+    }
+    input{
+      width: 25%;
+      margin-left: 0px;margin: 5px;
+    }
+    select{
+      width: 46%;
+      margin-left: 0px;
+      margin: 5px;
+    }
+  }
