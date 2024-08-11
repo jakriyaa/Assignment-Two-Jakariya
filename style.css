@@ -20,12 +20,12 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 90%;
+  max-width: 1440px;
   margin: 0 auto;
   margin-top: 50px;
 }
-.logo{
-  font-size: 1.5rem;
+.logo h2{
+  /* font-size: 2.5rem; */
   color: rgb(230, 83, 60);
   font-style: italic;
 }
@@ -64,7 +64,7 @@ body{
 
 /* Banner Section Strart */
 .banner-section{
-  width: 90%;
+  max-width: 1440px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -169,6 +169,10 @@ margin-top: 8px;
 /* Banner Section End */
 
 /* Habit Section Start */
+.habits-section{
+  max-width: 1440px;
+  margin: 0 auto;
+}
 .habits-text h2{
   text-align: center;
   font-size: 48px;
@@ -283,7 +287,7 @@ text-align: center;
 
 /* Run Extra Section Start */
 .run-extra{
-  width: 90%;
+  max-width: 1440px;
   display: flex;
   justify-content: space-between;
   margin: 100px auto;
@@ -331,7 +335,7 @@ text-align: center;
   justify-content: space-between;
   padding: 10px;
   background-color: rgb(34, 34, 34);
-  width: 90%;
+  max-width: 1440px;
   margin: 0 auto;
   display: flex;
 }
@@ -375,7 +379,7 @@ margin-bottom: 20px;
 margin-left: 5px;
 }
 input {
- width: 180px;
+ width: 35%;
  padding: 12px 40px;
  margin-top: 14px;
  margin-left: 5px;
@@ -389,7 +393,7 @@ input {
   margin-left: 5px;
   font-size: 1rem;
   border: none;
-  width: 260px;
+  width: 48%;
   padding: 12px 40px;
   margin-top: 14px;
   border-radius: 8px;
@@ -412,3 +416,99 @@ input {
   font-weight: 600;
 }
 /* Bmi Calculator Chart End */
+
+/* Meet Our Team Section Start */
+.our-team{
+  max-width: 1440px;
+  margin: 50px auto;
+  /* border: 2px solid red; */
+}h2 {
+  text-align: center;
+  color: white;
+  font-weight: 800;
+  font-size: 3rem;
+  margin-bottom: 20px;
+} p{
+
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  /* width: ; */
+  margin: 0 auto;
+}
+.meet-our-team{
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 50px;
+  margin: 70px auto;
+  margin-left: 50px;
+}
+.team-box{
+  position: relative;
+}
+.box-img img {
+  /* border: 1px solid blueviolet; */
+ width: 330px;
+  height:270px ;
+  object-fit: cover;
+  border-radius: 10px;
+  filter: brightness(0.8);
+}
+.team-box-text{
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}.team-box-text h4{
+  font-size: 1.5rem;
+  color: white;
+}.team-box-text h6{
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+}
+/* Meet Our Team Section End */
+
+
+/* Footer Section Start */
+.footer-container{
+
+}.footer-menus{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: 60px auto;
+  margin-bottom: 40px;
+}
+.footer-logo{
+  color: rgb(230, 83, 60);
+  font-style: italic;
+font-size: 4rem;
+font-weight: 800;
+text-align: left;
+}.footer-title{
+  color: rgb(255, 255, 255);
+font-size: 1.7rem;
+font-weight: 700;
+text-align: left;
+}.fotter-p{
+  color: rgba(255, 255, 255, 0.5);
+font-size: 1.3rem;
+font-weight: 400;
+margin-top: 20px;
+text-align: left;
+}
+.border{
+  border-top: 2px	solid
+  rgba(255, 255, 255, 0.5);
+  margin-bottom: 20px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.copywrite{
+  color: rgba(255, 255, 255, 0.5);
+font-size: 1.2rem;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+margin: 40px ;
+text-align: center;
+}

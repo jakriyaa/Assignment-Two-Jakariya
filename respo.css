@@ -1,27 +1,35 @@
 @media screen and (max-width : 576px){
   /* Navbar Start */
+  .logo h2 {
+    font-family: 2.4rem;
+    margin-bottom: 0px;
+  }
   .navbar{
     margin-top: 20px;
   }.menus{
     display: none;
   }.menu-icon{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     display: block;
     color: white;
+    font-size: 1.5rem;
   }
   /* Navbar End */
 
   /* Banner Section  Start*/
   .banner-section{
+    padding: 20px;
     display: flex;
     flex-direction: column;
   }.banner-content h1{
     font-size: 2.8rem;
   }.banner-content p{
-    width: 90%;
     font-weight: 400;
+    text-align: left;
+    width: 274px;
+    margin: 0%;
   } .banner-btn button{
     padding: 12px 23px 12px 23px;
     font-size: 0.8rem;}
@@ -43,10 +51,18 @@
     /* Banner Section End */
 
     /* Habit Section */
+    .habits-text h2{
+      font-size: 2rem;
+      margin-bottom: 0px;
+    }
+    .habits-text p{
+      padding: 20px;
+    }
     .cards{
       display: flex;
       flex-direction: column;
       gap: 40px;
+      [padding: 40px;]
     }
     /* Run Extra Mile */
     .run-extra{
@@ -54,12 +70,18 @@
       flex-direction: column;
       padding: 10px;
     }.run-text{
+      margin: 0;
+      padding: 20px;
       font-size: 2.5rem;
     }.run-text h2{
       font-size: 2.5rem;
+      text-align: left;
+    }.run-text p{
+      text-align: left;
     } .run-img img{
-      width: 250px;
+      width: 300px;
       height: 200px;
+      align-items: center;
     }
     /* Run Extra Mile End */
 
@@ -67,8 +89,9 @@
     .bmi-calculator{
       display: flex;
       flex-direction: column;
+      justify-content: center;
     }table{
-      margin: 0px;
+      margin: 0px auto;
     }
     .bmi-calculator-table{
       width: 100%;
@@ -78,13 +101,41 @@
       margin-top: 20px;
       padding: 0px;
     }
+    table{
+      margin-left: 0;
+    }
+    caption{
+      margin-bottom: 10px;
+    }
     input{
       width: 25%;
-      margin-left: 0px;margin: 5px;
+      margin-left: 0px;margin: 3px;
     }
     select{
-      width: 46%;
+      gap: 10px;
+      width: 45%;
       margin-left: 0px;
-      margin: 5px;
+      margin: 3px;
+    }
+    .meet-our-team{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      margin: 20px auto;
+      margin-left: 15px;
+      gap: 20px;
+    }
+    .footer-menus{
+      margin: 0px;
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+    }
+    .footer-title{
+      margin-top: 25px;
+    }
+    .border{
+      margin-top: 10px;
+    }.copywrite{
+      font-size: 1rem;
     }
   }
