@@ -6,6 +6,7 @@
   }
   .navbar{
     margin-top: 20px;
+    padding: 15px;
   }.menus{
     display: none;
   }.menu-icon{
@@ -90,6 +91,7 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
+      padding: 20px;
     }table{
       margin: 0px auto;
     }
@@ -121,8 +123,19 @@
       display: grid;
       grid-template-columns: repeat(1, 1fr);
       margin: 20px auto;
-      margin-left: 15px;
+      /* margin-left: 15px; */
       gap: 20px;
+      padding: 20px;
+    }
+    .our-team h2{
+      font-size: 2rem;
+      margin-bottom: 0px;
+    }
+    .our-team p{
+      width: 300px;
+      /* text-align: left; */
+      /* margin-left: px; */
+      padding: 20px;
     }
     .footer-menus{
       margin: 0px;
